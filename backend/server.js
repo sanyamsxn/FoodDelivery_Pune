@@ -5,7 +5,7 @@ dotenv.config();   // invoking dotenv file
 const app = express();
 
 // DATABASE CONNECTION
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 6000;
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
